@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2019/09/20 16:13:42.942,=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019/09/20 16:15:43.566,C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\uPrincipal.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019/09/20 16:15:43.566,C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\uPrincipal.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2019/09/20 16:16:12.577,C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\Sistema_Financas.dproj=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2019/09/20 16:13:42.000.942,=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/20 16:15:43.000.566,C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\uPrincipal.dfm</Transaction>
+    <Transaction>2019/09/20 16:15:43.000.566,C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\uPrincipal.pas</Transaction>
+    <Transaction>2019/09/20 16:16:12.000.577,C:\Users\novin\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\Sistema_Financas.dproj</Transaction>
+    <Transaction>2019/09/23 16:52:32.953,=C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\Unit1.pas</Transaction>
+    <Transaction>2019/09/23 16:53:14.232,C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\ModConexao.pas=C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\Unit1.pas</Transaction>
+    <Transaction>2019/09/23 16:53:14.232,C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\ModConexao.dfm=C:\Users\novin\Documents\Lucas\Curso Delphi\Sistema-Financeiro\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

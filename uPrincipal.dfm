@@ -3,8 +3,8 @@ object frmPrincipal: TfrmPrincipal
   Top = 0
   Align = alCustom
   Caption = 'Sistema de Controle de Fina'#231'as'
-  ClientHeight = 382
-  ClientWidth = 625
+  ClientHeight = 420
+  ClientWidth = 693
   Color = clGradientActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,6 +14,7 @@ object frmPrincipal: TfrmPrincipal
   KeyPreview = True
   OldCreateOrder = False
   Position = poDesktopCenter
+  OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -34,6 +35,9 @@ object frmPrincipal: TfrmPrincipal
     Top = 37
     Width = 65
     Height = 68
+    Hint = 'Cadastro de Usu'#225'rios'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE000010AB4944415478DACD5B0B7854D59DFF9D7BEF
@@ -171,12 +175,16 @@ object frmPrincipal: TfrmPrincipal
       E0C081A3DBE9C70DD4EFF763E5CA95080402C745809348CFF784633E0B596206
       3B14E8D9D633C09E6BAF3F17E15160CB962D58BD7AF571F7FF1FA2CF1FAA73FF
       E02F0000000049454E44AE426082}
+    ShowHint = True
   end
-  object Image1: TImage
-    Left = 96
+  object imgReceber: TImage
+    Left = 104
     Top = 37
     Width = 65
     Height = 68
+    Hint = 'Cadastro de Contas a receber'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE00000006624B4744000000000000F943BB7F000000
@@ -333,12 +341,16 @@ object frmPrincipal: TfrmPrincipal
       6F646966792D6461746500323030392D30392D32335431303A33323A33342D30
       343A303073BF23320000001974455874536F6674776172650041646F62652049
       6D616765526561647971C9653C0000000049454E44AE426082}
+    ShowHint = True
   end
   object imgPagar: TImage
-    Left = 184
+    Left = 200
     Top = 37
     Width = 65
     Height = 68
+    Hint = 'Cadatro de Contas a Pagar'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE00000006624B4744000000000000F943BB7F000000
@@ -571,12 +583,16 @@ object frmPrincipal: TfrmPrincipal
       61746500323030392D30392D32335431303A33313A35362D30343A3030C97880
       9F0000001974455874536F6674776172650041646F626520496D616765526561
       647971C9653C0000000049454E44AE426082}
+    ShowHint = True
   end
   object imgCaixa: TImage
-    Left = 272
+    Left = 296
     Top = 37
     Width = 65
     Height = 68
+    Hint = 'Lan'#231'ar no Caixa'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE00000006624B4744000000000000F943BB7F000000
@@ -710,12 +726,16 @@ object frmPrincipal: TfrmPrincipal
       303A33333A30302D30343A3030E6BD6BFC0000001974455874536F6674776172
       650041646F626520496D616765526561647971C9653C0000000049454E44AE42
       6082}
+    ShowHint = True
   end
   object Image2: TImage
-    Left = 360
+    Left = 392
     Top = 37
     Width = 65
     Height = 68
+    Hint = 'Consultar Contas a receber'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE000000097048597300000B1300000B1301009A9C18
@@ -947,12 +967,16 @@ object frmPrincipal: TfrmPrincipal
       F0454C742CF3C1EBAD3D44393E9CD2E66732B9D9B1DC6426650DB1E5DBE7F6B9
       4675433C1EE71C5BF9DB1FA97DCF002CB5C3FFEBAFDF03F07B007E0FC0FFDF00
       FC2FDB447E44B1B911490000000049454E44AE426082}
+    ShowHint = True
   end
   object imgConpagar: TImage
-    Left = 448
+    Left = 528
     Top = 37
     Width = 65
     Height = 68
+    Hint = 'Consultar Contas a pagar'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE000000097048597300000B1300000B1301009A9C18
@@ -1219,6 +1243,7 @@ object frmPrincipal: TfrmPrincipal
       7482062323CF429B733B8EEEB98F5DB3E30BB9652577083F7BF243C1CAD26D89
       351BEE8463D481D2DE4ACAF26F1E537D7E924E579A5223F35F03C0DFF2F53600
       6F03F036007FDB00FC5FE62F668F0DC794F40000000049454E44AE426082}
+    ShowHint = True
   end
   object Label2: TLabel
     Left = 8
@@ -1259,6 +1284,9 @@ object frmPrincipal: TfrmPrincipal
     Top = 173
     Width = 65
     Height = 68
+    Hint = 'Relat'#243'rio de contas a pagar'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE00000B0B4944415478DADD9B096C14D719C7FF33B3
@@ -1351,12 +1379,16 @@ object frmPrincipal: TfrmPrincipal
       D5785EBB76AD6E006308BD7F92E38F318CBE3CAD516872F20569F957C9515D64
       58B26409EAEBEB1303D8B46993AADF26A9AEAE06DD21D25BFE0F00227F9BDB32
       A5470000000049454E44AE426082}
+    ShowHint = True
   end
   object imgConfig: TImage
     Left = 8
     Top = 301
     Width = 65
     Height = 68
+    Hint = 'Configura'#231#245'es'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400804000001776789C3000000097048597300000DD700000DD70142289B78
@@ -1505,12 +1537,16 @@ object frmPrincipal: TfrmPrincipal
       02D4274C1FA018614BE722DC3061E2AC04A98E3A5975E71721B8CE9CB8EBE55A
       B1E0D4A93CDC6AEA7E4380FFEDF52F19E8722D208564A30000000049454E44AE
       426082}
+    ShowHint = True
   end
   object imgNavegador: TImage
-    Left = 96
+    Left = 104
     Top = 301
     Width = 65
     Height = 68
+    Hint = 'Navegador'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE000000097048597300000B1300000B1301009A9C18
@@ -1819,20 +1855,24 @@ object frmPrincipal: TfrmPrincipal
       FF8AAAC38890FD335633412A1DC3CBC568CC1398253EEC488CDD5B225CD18CB0
       7101581C6184DA096EF84BE0DAB3F94C6F04FEFD0B9BF22C00FF1BEE173DBC7F
       0A773E0000000049454E44AE426082}
+    ShowHint = True
   end
   object Label5: TLabel
-    Left = 96
+    Left = 79
     Top = 111
-    Width = 65
+    Width = 99
     Height = 13
     Alignment = taCenter
-    Caption = 'Cadastros'
+    Caption = 'Contas a receber'
   end
   object imgRelReceber: TImage
-    Left = 96
+    Left = 200
     Top = 173
     Width = 65
     Height = 68
+    Hint = 'Relatorio de Contas a receber'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE00000ADB4944415478DAE59B695054571680CFEBF7
@@ -1923,12 +1963,16 @@ object frmPrincipal: TfrmPrincipal
       E4D3AC9BFB3DBC76F1C6F6F0F99DBC81C2F3EDFCD5BE8C63FBF4340AF0654476
       57915D8D0AB52BE6D553ED0BDEE375EEEA64A0E0BE06BE569DBD40A879FBAB05
       1C3D83755207C151E0BFC709538CC7E27FBE0000000049454E44AE426082}
+    ShowHint = True
   end
   object imgRelCaixa: TImage
-    Left = 184
+    Left = 104
     Top = 173
     Width = 65
     Height = 68
+    Hint = 'Relat'#243'rio de Lan'#231'amento no caixa'
+    CustomHint = BalloonHint1
+    ParentShowHint = False
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
       00400806000000AA6971DE00000B5C4944415478DADD9B696C14E719C7FF337B
@@ -2023,29 +2067,61 @@ object frmPrincipal: TfrmPrincipal
       0DDA5FBC26D17EF9C21F36D252C44EC842150061194A486E054AFC87E532C5C5
       87F50248BA6389CD3DF1EE1A529423A98E4986A8270422F2458B69EAD0B1281E
       CC094A5828DF538ED7FF07A88AC209FB203A8C0000000049454E44AE426082}
+    ShowHint = True
   end
   object Label6: TLabel
     Left = 184
     Top = 111
-    Width = 65
+    Width = 91
     Height = 13
+    Hint = 'Cadastro de contas a pgar'
     Alignment = taCenter
-    Caption = 'Cadastros'
+    Caption = 'Contas a pagar'
   end
   object Label7: TLabel
-    Left = 272
+    Left = 296
     Top = 111
-    Width = 65
+    Width = 80
     Height = 13
     Alignment = taCenter
-    Caption = 'Cadastros'
+    Caption = 'Lan'#231'ar  no Caixa'
   end
   object Label8: TLabel
-    Left = 360
+    Left = 392
     Top = 111
-    Width = 65
-    Height = 13
+    Width = 73
+    Height = 34
     Alignment = taCenter
-    Caption = 'Cadastros'
+    Caption = 'Consulta contas a pagar'
+  end
+  object Label9: TLabel
+    Left = 528
+    Top = 111
+    Width = 81
+    Height = 34
+    Alignment = taCenter
+    Caption = 'Consulta contas a Receber'
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 401
+    Width = 693
+    Height = 19
+    Panels = <
+      item
+        Width = 50
+      end>
+    ExplicitLeft = 352
+    ExplicitTop = 224
+    ExplicitWidth = 0
+  end
+  object BalloonHint1: TBalloonHint
+    Left = 560
+    Top = 144
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 520
+    Top = 144
   end
 end
